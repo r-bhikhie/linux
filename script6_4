@@ -1,0 +1,9 @@
+#!/bin/bash
+T1="foo"
+T2="bar"
+if [ "$T1" = "$USER" ]; then
+	echo Apparently \$USER is now "foo"
+else
+	echo It seems like \$USER is not $T1 or $T2 but $USER
+fi
+
