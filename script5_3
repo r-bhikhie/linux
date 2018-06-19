@@ -1,0 +1,11 @@
+#!/bin/bash
+HELLO=Helleu
+function jemoeder {
+	local HELLO=Hooi
+	echo $HELLO
+}
+echo $HELLO
+jemoeder
+echo $HELLO
+
+
